@@ -36,3 +36,8 @@ str = "Python is an interpreted, interactive, object-oriented programming\
 print(str[48:67] + " with " + str[:6])
 
 Prints  object-oriented programming with Python, followed by a new line.
+
+# #!/usr/bin/python3
+import this
+
+Prints “The Zen of Python”, by TimPeters, followed by a new line.
