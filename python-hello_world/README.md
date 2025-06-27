@@ -14,3 +14,18 @@ Prints the integer stored in the variable number, followed by Battery street, fo
 # number = 3.14159
 print(f"Float: {number:.2f}")
 Prints the float stored in the variable number with a precision of 2 digits.
+
+# #!/usr/bin/python3
+str = "Holberton School"
+print(str * 3)
+print(str[:9])
+
+Prints 3 times a string stored in the variable str, followed by its first 9 characters.
+
+# #!/usr/bin/python3
+str1 = "Holberton"
+str2 = "School"
+str3 = str1 + " " + str2
+print(f"Welcome to {str3}!")
+
+Prints Welcome to Holberton School!
