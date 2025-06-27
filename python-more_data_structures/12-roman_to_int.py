@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def roman_to_int(roman_string):
     if not isinstance(roman_string, str) or roman_string is None:
         return 0
@@ -18,8 +20,13 @@ def roman_to_int(roman_string):
         else:
             total += current_val
     
-    # Add the last character value
     if length > 0:
         total += roman_map.get(roman_string[-1], 0)
     
     return total
+
+# Test cases (optional, remove if not needed)
+if __name__ == "__main__":
+    test_cases = ["X", "VII", "IX", "LXXXVII", "DCCVII"]
+    for roman in test_cases:
+        print(f"{roman} = {roman_to_int(roman)}")
