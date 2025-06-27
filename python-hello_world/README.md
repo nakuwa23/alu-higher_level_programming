@@ -30,3 +30,9 @@ print(f"Welcome to {str3}!")
 
 Prints Welcome to Holberton School!
 
+# #!/usr/bin/python3
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
+print(str[48:67] + " with " + str[:6])
+
+Prints  object-oriented programming with Python, followed by a new line.
