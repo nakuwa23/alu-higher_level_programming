@@ -1,0 +1,1 @@
+Errors and exceptions in Python are problems that occur during code execution. Errors stop the program due to incorrect syntax, while exceptions happen at runtime and can be handled using try and except blocks to avoid crashes.
