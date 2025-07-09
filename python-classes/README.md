@@ -1,0 +1,1 @@
+In Python, classes are blueprints for creating objects, allowing you to bundle data and functionality together. Whereas, an object is an instance of a class, representing a specific implementation of the structure and behavior defined by the class.
