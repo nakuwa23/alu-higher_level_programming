@@ -1,0 +1,1 @@
+In Python, inheritance allows a class (called child or subclass) to inherit attributes and methods from another class (called parent or base class). This promotes code reuse and establishes a hierarchical relationship between classes. The child class can use or override the parent’s functionality and can also add its own unique features.
