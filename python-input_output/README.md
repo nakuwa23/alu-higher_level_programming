@@ -1,0 +1,1 @@
+This subtopic covers how Python interacts with external data through reading from and writing to files using built-in functions like open(), read(), and write(). It emphasizes efficient file handling using the with statement to ensure resources are properly managed.
