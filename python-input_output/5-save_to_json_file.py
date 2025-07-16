@@ -6,12 +6,13 @@ to a JSON-formatted file.
 
 import json
 
+
 def save_to_json_file(my_obj, filename):
     """
     Writes an object to a text file using its JSON representation.
 
     Args:
-        my_obj: The Python object to be serialized (e.g., dict, list, str, int, etc.).
+        my_obj: The Python object to be serialized (e.g., dict, list, str, int).
         filename (str): The name of the file to write the JSON string to.
 
     Note:
@@ -20,4 +21,3 @@ def save_to_json_file(my_obj, filename):
     """
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(my_obj, f)
-
