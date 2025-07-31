@@ -1,14 +1,33 @@
-This is a test for say_my_name
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation("tomato     .   ,,,,/\?00")
+tomato     .
+<BLANKLINE>
+,,,,/\?
+<BLANKLINE>
+00
+>>> text_indentation("....")
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+>>> text_indentation("")
 
->>> say_my_name("John", "Smith")
-My name is John Smith
->>> say_my_name("Bob")
-My name is Bob 
->>> say_my_name("Walter", "White")
-My name is Walter White
->>> say_my_name(12, "White")
+>>> text_indentation(" .? ")
+.
+<BLANKLINE>
+?
+<BLANKLINE>
+>>> text_indentation("     .     . ")
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+>>> text_indentation("  ")
+
+>>> text_indentation(""")
 Traceback (most recent call last):
-TypeError: first_name must be a string
->>> say_my_name("Marie", 123)
-Traceback (most recent call last):
-TypeError: last_name must be a string
+SyntaxError: EOF while scanning triple-quoted string literal
